@@ -1,0 +1,67 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    margin-top: 50px;
+}
+
+.wrapper{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+img{
+    display: none;
+}
+
+.prev{
+    position: absolute;
+    top: 50%;
+    left: -10%;
+    font-size: 50px;
+    color: #bbb;
+}
+
+.next{
+    position: absolute;
+    top: 50%;
+    left: 105%;
+    font-size: 50px;
+    color: #bbb;
+}
+
+.prev:hover{
+    color: grey;
+}
+
+.next:hover{
+    color: grey;
+}
+
+.pallini{
+    text-align: center;
+}
+
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 20px 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot:hover{
+    background-color: grey;
+}
+
+.active{
+    display: block;
+}
+  
